@@ -22,11 +22,23 @@ dockitems_remove:
   - Pages
   - Games
   - 'App Store'
+  - Numbers
   - 'iPhone Mirroring'
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+dockitems_persist:
+  - name: "Firefox"
+    path: "/Applications/Firefox.app"
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app"
+  - name: "Slack"
+    path: "/Applications/Slack.app"
+  - name: "GitHub Desktop"
+    path: "/Applications/GitHub Desktop.app"
+  - name: "Obsidian"
+    path: "/Applications/Obsidian.app"
+  - name: "Figma"
+    path: "/Applications/Figma.app"
+  - name: "1Password"
+    path: "/Applications/1Password.app"
 
 configure_sudoers: false
 sudoers_custom_config: ""
@@ -63,6 +75,7 @@ homebrew_cask_apps:
   - figma
   - google-drive
   - keepassxc
+  - 1password
   - rectangle
   - timing
 
