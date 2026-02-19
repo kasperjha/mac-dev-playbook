@@ -61,6 +61,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - wget
+  - uv
 
 homebrew_taps: []
 homebrew_cask_appdir: /Applications
@@ -78,6 +79,7 @@ homebrew_cask_apps:
   - 1password
   - rectangle
   - timing
+  - zed
 
 mas_installed_apps: []
 mas_email: ""
