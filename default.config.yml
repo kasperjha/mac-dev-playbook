@@ -80,6 +80,7 @@ homebrew_cask_apps:
   - rectangle
   - timing
   - zed
+  - claude-code
 
 mas_installed_apps: []
 mas_email: ""
