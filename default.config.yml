@@ -11,7 +11,7 @@ dockitems_remove:
   - Messages
   - Maps
   - Photos
-  - 'FaceTime'
+  - "FaceTime"
   - Phone
   - Contacts
   - Reminders
@@ -21,9 +21,9 @@ dockitems_remove:
   - Keynote
   - Pages
   - Games
-  - 'App Store'
+  - "App Store"
   - Numbers
-  - 'iPhone Mirroring'
+  - "iPhone Mirroring"
 dockitems_persist:
   - name: "Firefox"
     path: "/Applications/Firefox.app"
@@ -39,6 +39,8 @@ dockitems_persist:
     path: "/Applications/Figma.app"
   - name: "1Password"
     path: "/Applications/1Password.app"
+  - name: "Ghostty"
+    path: "/Applications/Ghostty.app"
 
 configure_sudoers: false
 sudoers_custom_config: ""
@@ -81,6 +83,7 @@ homebrew_cask_apps:
   - timing
   - zed
   - claude-code
+  - ghostty
 
 mas_installed_apps: []
 mas_email: ""
@@ -92,7 +95,6 @@ composer_packages: []
 gem_packages: []
 npm_packages: []
 pip_packages: []
-
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
